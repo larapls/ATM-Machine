@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+@import url('http://fonts.cdnfonts.com/css/quicksand');
+
+*{
+    margin: 0;
+    font-family: 'News Cycle', sans-serif;
+  }
+
+#toptitle{
+        top:4%;
+        position: relative;
+        font-family: 'News Cycle', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        border: 8px double rgb(22, 60, 104);
+        background-color: azure;
+        color:rgb(36, 87, 146);
+  }
+body{
+   
+    padding:50px;
+}
+  main{
+      border: 8px double rgb(9, 38, 83);
+      width: 350px;
+      height:500px;
+      position: relative;
+      padding: 20px;
+      left: auto;
+      background-color: rgb(36, 87, 146);
+     
+  }
+
+  #instructions{
+    position: relative;
+    color: azure;
+      text-align: center;
+      top:28%;
+  }
+
+  hr.line{
+    color: black;
+ 
+  }
+  #btn{
+    position: absolute;
+    width:300px;
+    height:70px;
+    top: 53%;
+    left:12%;
+    background-color: rgb(31, 29, 29);
+    color: #fff;
+
+  }
